@@ -5,7 +5,7 @@
 // 23432 -> да
 Console.Write("Введите пятизначное число: ");
 int num = Convert.ToInt32(Console.ReadLine());
-while ( 9999 > num || num > 100000)
+while ( 10000 > num || num > 100000)
 {
   Console.Write("Введите пятизначное число: ");
   num = Convert.ToInt32(Console.ReadLine());
